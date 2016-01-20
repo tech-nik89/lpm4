@@ -1,0 +1,137 @@
+body {
+	font-family:"Courier New";
+	font-size:11px;
+	background-color:#000000;
+	color:#00FF00;
+}
+
+th
+{
+	font-family:"Courier New";
+	font-size:11px;
+	line-height:18px;
+	font-weight:bold;
+	text-align:left;
+}
+	
+
+td
+{
+	font-family:"Courier New";
+	font-size:11px;
+	line-height:18px;
+}
+
+textarea {
+	font-family:"Courier New";
+	font-size:11px;
+}
+
+input, textarea, select {
+	border:1px solid #00FF00;
+	background-color:#000000;
+	color:#00FF00;
+}
+
+#main {
+	color:#00FF00;
+	margin:25px;
+	background-color:#333333;
+	border:1px dashed #00FF00;
+}
+
+#header {
+
+	padding:25px;
+	
+	font-size:32px;
+	padding-bottom:10px;
+	height:80px;
+	color:#00FF00;
+	border-bottom:1px dashed #00FF00;
+}
+
+#subheader {
+	font-size:20px;
+	letter-spacing:+3px;
+}
+
+#submenu {
+	background-color:#222222;
+	padding:5px;
+}
+
+#menu {
+	float:left;
+	width:15%;
+	margin:15px;
+}
+
+#content {
+	float:left;
+	margin:15px;
+	width:55%;
+}
+
+#right {
+	float:left;
+	width:15%;
+	margin:15px;
+}
+
+#footer {
+	height:35px;
+	background-color:#444444;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:35px;
+}
+
+
+.quote {
+	border:1px solid #0C0C0C;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+
+.menu {
+	margin:8px;
+}
+
+
+.headline {
+	padding:5px;
+	margin-bottom:10px;
+	margin-top:15px;
+	border-bottom:1px solid #CCCCCC;
+	font-size:12px;	
+	font-weight:bold;
+}
+
+
+.notification {
+	padding:8px;
+	border:1px solid #999999;
+	background-color:#222222;
+	margin-bottom:10px;
+}
+
+
+a:link, a:visited {
+  text-decoration:underline;
+  color:#00FF00;
+}
+
+a:hover, a:active {
+  color:#00FF00;
+  text-decoration:none;
+}
+
+.vcenter {
+	position:relative;
+	top:50%;
+}
+
+.highlight_row {
+	background-color:#222222;
+}

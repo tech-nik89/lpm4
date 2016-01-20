@@ -1,0 +1,52 @@
+body, td, th {
+	font-family:Tahoma, Sans;
+	font-size:11px;
+}
+
+th {
+	text-align:left;
+}
+
+.quote {
+	border:1px solid #0C0C0C;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+
+.menu {
+	margin:8px;
+}
+
+
+.headline {
+	padding:5px;
+	margin-bottom:10px;
+	margin-top:15px;
+	border-bottom:1px solid #CCCCCC;
+	font-size:12px;	
+	font-weight:bold;
+}
+
+a:link {
+  text-decoration:none;
+  color:#0066FF;
+}
+
+a:visited {
+  text-decoration:none;
+  color:#0066FF;
+}
+
+a:hover {
+  color:#0066FF;
+  text-decoration:underline;
+}
+
+a:active {
+  color:#0066FF;
+  text-decoration:underline;
+}
+
+.highlight_row {
+	background-color:#EEE;
+}

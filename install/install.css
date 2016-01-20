@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+BODY				{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color: #000000;
+	margin: 15 15 15 15;
+	padding:15px;
+}
+UL,OL				{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+LI				{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; list-style: square; margin-left: 16px;}
+TD, TH, TR, DIV, P		{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000;}
+h1,h2,h3,h4,h5,h6		{margin: 0; padding: 0;}
+SELECT				{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+INPUT				{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+TEXTAREA			{font-size: 11px;}
+OPTION				{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+FORM				{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; padding: 0; margin: 0;}
+
+th { text-align:left; border-bottom:1px solid #DDDDDD; }
+
+.headline {
+	padding:5px;
+	margin-bottom:10px;
+	margin-top:15px;
+	border-bottom:2px solid #D5DF3D;
+	font-size:12px;	
+	font-weight:bold;
+}
+
+#topline {
+	height:22px;
+	background-color:#D5DF3D;
+	width:100%;
+}
+
+#menu {
+	width:200px;
+}
+
+#content {
+	margin:15px;
+	width:97%;
+}
+
+#footer {
+	height:22px;
+	color:#000000;
+	text-align:center;
+	line-height:22px;
+	border-bottom:1px solid #DDDDDD;
+}
+
+A:link				{color: #666666; text-decoration: none;}
+A:active			{color: #666666; text-decoration: none;}
+A:visited			{color: #666666; text-decoration: none;}
+A:hover				{color: #D5DF3D; text-decoration: none;}
+
+a.menu:link, a.menu:visited {
+	background-color:#CCCCCC;
+	display:block;
+	padding:4px;
+	color:#000000;
+	text-decoration:none;
+	height:14px;
+	border-bottom:1px solid #FFFFFF;
+	border-left:7px solid #CCCCCC;
+	font-size:11px;
+}
+
+a.menu:hover, a.menu:active {
+	background-color:#EAEAEA;
+	display:block;
+	padding:4px;
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+	border-bottom:1px solid #FFFFFF;
+	border-left:7px solid #D5DF3D;
+}
+
+.notification {
+	border:1px solid #D5DF3D;
+	background-color:#CCCCCC;
+	padding:5px;
+}
+
+.bar {
+	overflow:hidden;
+	border:1px solid #777777;
+	width:200px;
+	height:10px;
+}
+
+.install {
+	margin:5px;
+	padding:3px;
+}

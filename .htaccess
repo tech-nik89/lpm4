@@ -1,0 +1,2 @@
+RewriteEngine on 
+RewriteRule ^(.*).html$ index.php?mod=$1&%{QUERY_STRING}

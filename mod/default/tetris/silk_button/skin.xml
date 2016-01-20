@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<movie width="16" height="16" framerate="12" version="7">
+	
+	<frame>
+		
+		<library>
+			
+			<clip id="updatenotice" import="../00global/flash.png" />
+			
+			<clip id="player_play" import="library/player_play.png" />
+			<clip id="player_stop" import="library/player_stop.png" />
+			
+		</library>
+		
+	</frame>
+	
+</movie>

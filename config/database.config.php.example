@@ -1,0 +1,10 @@
+<?php
+	
+	define('MYSQL_HOST', 'localhost', true);
+	define('MYSQL_USER', 'root', true);
+	define('MYSQL_PASSWORD', '', true);
+	define('MYSQL_DATABASE', 'hfh', true);
+	
+	define('MYSQL_TABLE_PREFIX', 'hfh_', true);
+	
+?>

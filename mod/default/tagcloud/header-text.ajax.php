@@ -1,0 +1,1 @@
+<?php	$lng = strip_tags($_GET['lang']);	echo $config->get('tagcloud', 'header-'.$lng);?>

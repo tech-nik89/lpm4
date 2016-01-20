@@ -1,0 +1,1 @@
+﻿<?php	$smarty->assign('path', $template_dir.'/noaccess.tpl');	?>

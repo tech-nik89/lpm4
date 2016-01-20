@@ -1,0 +1,65 @@
+body, td, th {
+	font-family:Tahoma, Sans;
+	font-size:17px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+textarea {
+	font-family:Tahoma, Helvetica;
+	font-size:11px;
+}
+
+input, textarea {
+	border:1px solid #CCCCCC;
+	background-color:#FFFFFF;
+}
+
+#content-n {
+	padding:15px;
+}
+
+.quote {
+	border:1px solid #0C0C0C;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+
+.headline {
+	padding:5px;
+	margin-bottom:10px;
+	margin-top:15px;
+	border-bottom:1px solid #CCCCCC;
+	font-size:1.2em;	
+	font-weight:bold;
+}
+
+
+.notification {
+	padding:8px;
+	border:1px solid #999999;
+	background-color:#DDDDDD;
+	margin-bottom:10px;
+}
+
+
+a:link, a:visited {
+  text-decoration:none;
+  color:#0066FF;
+}
+
+a:hover, a:active {
+  color:#0066FF;
+  text-decoration:underline;
+}
+
+.highlight_row {
+	background-color:#DDDDDD;
+}
+
+.bar {
+	overflow:hidden;
+	border:1px solid #777777;
+	width:200px;
+	height:10px;
+}

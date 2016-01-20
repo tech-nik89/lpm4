@@ -1,0 +1,1 @@
+<p>{$lang.no_poll}</p>

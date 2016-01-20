@@ -1,0 +1,60 @@
+body, td, th {
+	font-family:Tahoma, Sans;
+	font-size:12px;
+	background-color:#000000;
+	color:#ffffff;
+}
+
+textarea {
+	font-family:Tahoma, Helvetica;
+	font-size:11px;
+}
+
+input, textarea {
+	border:1px solid #CCCCCC;
+	background-color:#FFFFFF;
+}
+
+#content-n {
+	padding:15px;
+}
+
+.quote {
+	border:1px solid #0C0C0C;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+
+.headline {
+	padding:5px;
+	margin-bottom:10px;
+	margin-top:15px;
+	border-bottom:1px solid #CCCCCC;
+	font-size:1.2em;	
+	font-weight:bold;
+}
+
+
+.notification {
+	padding:8px;
+	border:1px solid #999999;
+	background-color:#DDDDDD;
+	margin-bottom:10px;
+}
+
+
+a:link, a:visited , a:hover, a:active {
+  text-decoration:none;
+  color:#FFFFFF;
+}
+
+.highlight_row {
+	background-color:#DDDDDD;
+}
+
+.bar {
+	overflow:hidden;
+	border:1px solid #777777;
+	width:200px;
+	height:10px;
+}
